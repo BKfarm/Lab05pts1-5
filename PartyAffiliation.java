@@ -8,16 +8,15 @@ public class PartyAffiliation
         String party = "";
         System.out.println("What is your political party affiliation [D,R,I,Other]?");
         party = in.nextLine();
-        in.nextLine();
-        if (party == "D")
+        if (party.equals("D"))
         {
             System.out.println("You get a Democratic Donkey.");
         } else {
-            if (party == "R")
+            if (party.equals("R"))
             {
                 System.out.println("You get a Republican Elephant.");
             } else {
-                if (party == "I")
+                if (party.equals("I"))
                 {
                     System.out.println("You get an Independent Man.");
                 } else {
