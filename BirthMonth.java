@@ -14,11 +14,11 @@ public class BirthMonth
             in.nextLine(); //buffer clear
             if(month >= 1 && month <= 12)
             {
-            System.out.println("Your birth month is:" + month);
+            System.out.println("Your birth month is: " + month);
             }
             else
             {
-                System.out.println("You said your birth month was " + month + "but that is outside of the valid range [1-12].");
+                System.out.println("You said your birth month was " + month + " but that is outside of the valid range [1-12].");
             }
         }
         else
